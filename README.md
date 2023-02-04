@@ -21,8 +21,14 @@
    ```
 
 1. Starting new django project, go inside the project folder and run the server
+
    ```
    django-admin startproject drfecommerce
    cd drfecommerce/
    python manage.py runserver
+   ```
+
+1. Create and register a new Django application
+   ```
+   python manage.py startapp product
    ```
